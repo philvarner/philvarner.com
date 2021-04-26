@@ -1,0 +1,17 @@
+baseURL = "http://philvarner.com/"
+languageCode = "en-us"
+title = "Phil Varner"
+theme = "PaperMod"
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "s3deployment"
+
+URL = "s3://philvarner.com/?region=us-east-1"
