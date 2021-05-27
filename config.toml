@@ -1,7 +1,7 @@
 baseURL = "http://philvarner.com/"
 languageCode = "en-us"
 title = "Phil Varner"
-theme = "PaperMod"
+theme = "hugo-initio"
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
@@ -9,9 +9,75 @@ theme = "PaperMod"
 # will be uploaded first, in the listed order.
 order = [".jpg$", ".gif$"]
 
-
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "s3deployment"
 
 URL = "s3://philvarner.com/?region=us-east-1"
+
+[params]
+    name = "Phil Varner"
+    description = "Software Developer"
+    email = "phil@philvarner.com"
+    # phone = "+234 23 9873237"
+    address = "Charlottesville, Virginia"
+    year = 2021
+    avatar = "owl-in-a-hat-avatar.jpg"
+    avatarclass = "circle"
+    background = ""
+    # banner = "images/bg_head.jpg"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = false
+    showDownloads = false
+    showClients = false
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/posts/"
+    weight = 5
+[[menu.main]]
+    name = "resume"
+    url = "/resume"
+    weight = 5
+
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/philvarnerpro"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/philvarner"
+    icon = "fab fa-linkedin"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/philvarner"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:phil@philvarner.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"

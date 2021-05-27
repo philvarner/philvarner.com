@@ -13,7 +13,23 @@
       <pubDate>Mon, 26 Apr 2021 17:30:16 -0400</pubDate>
       
       <guid>http://philvarner.com/posts/my-first-post/</guid>
-      <description></description>
+      <description>After leaving my job at Astraea in February, I&amp;rsquo;m been spending my time in sort of a mid-career re-evaluation and retooling. Part of the outcome from this is to actually take notes on many of the technologies I&amp;rsquo;ve used, and put them in a format I can actually refer to, hence:
+Old Possum&amp;rsquo;s Book of Practical Software Development
+When this gets a little more organized, it&amp;rsquo;ll probably have a tie-in with the T.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://philvarner.com/resume/</link>
+      <pubDate>Mon, 26 Apr 2021 17:30:16 -0400</pubDate>
+      
+      <guid>http://philvarner.com/resume/</guid>
+      <description>phil@philvarner.com
+github.com/philvarner
+linkedin.com/in/philvarner
+Overview I am an experienced software developer, with over 17 years building production software, in a variety of both formal and informal roles in the software development process, on a variety of tech stacks.
+I am pragmatic, passionate, broad, and serious but not solemn.
+Skills &amp;amp; Tools Scala, Java, Python, RESTful APIs, data modeling, Docker, AWS (S3, SQS, API Gateway, Lambda, IAM), Akka HTTP, relational databases (MySQL, PostgreSQL), Elasticsearch, Git, GitHub, Bash, OAuth 2.</description>
     </item>
     
   </channel>
