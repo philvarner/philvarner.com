@@ -12,7 +12,7 @@ Charlottesville, Virginia (Eastern Time Zone)
 
 ## Overview
 
-I am an experienced software developer, with over 17 years of work building production software, in a variety of both formal and informal roles within the software development process, on a many different tech stacks. 
+I am an experienced software developer, with over 17 years of work building production software, in a variety of both formal and informal roles within the software development process, on many different tech stacks. 
 
 I am pragmatic, passionate, broad, and serious but not solemn.
 
