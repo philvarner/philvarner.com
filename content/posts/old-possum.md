@@ -1,6 +1,7 @@
 +++
 date = '2025-04-13T11:14:18-04:00'
 title = "Old Possum's Book of Practical Software Development"
+categories = ['professional']
 +++
 
 [Old Possum's Book of Practical Software Development](https://github.com/philvarner/old-possum)

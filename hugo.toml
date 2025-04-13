@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = "Phil Varner"
 theme = 'ananke'
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [[deployment.targets]]
 name = "s3deployment"
 URL = "s3://philvarner.com/?region=us-east-1"
