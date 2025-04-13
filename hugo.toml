@@ -1,0 +1,8 @@
+baseURL = "http://philvarner.com/"
+languageCode = 'en-us'
+title = "Phil Varner"
+theme = 'ananke'
+
+[[deployment.targets]]
+name = "s3deployment"
+URL = "s3://philvarner.com/?region=us-east-1"
